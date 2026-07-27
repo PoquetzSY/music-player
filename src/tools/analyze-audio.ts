@@ -1,0 +1,1 @@
+import waveform from "../assets/waveform.json";

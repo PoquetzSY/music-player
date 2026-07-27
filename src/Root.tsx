@@ -1,10 +1,18 @@
 import "./index.css";
-import { MyComposition } from "./Composition";
+import { Composition } from "remotion";
+import { SamsungPlayer } from "./compositions/SamsungPlayer";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
-      <MyComposition />
+      <Composition
+        id="SamsungPlayer"
+        component={SamsungPlayer}
+        durationInFrames={13130}
+        fps={60}
+        width={1080}
+        height={1920}
+      />
     </>
   );
 };
