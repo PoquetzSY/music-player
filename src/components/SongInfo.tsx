@@ -5,7 +5,7 @@ export function SongInfo() {
     <div
       style={{
         position: "absolute",
-        top: 920,
+        top: 880,
         width: "100%",
         textAlign: "center",
         color: "white",
