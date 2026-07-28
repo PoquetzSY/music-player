@@ -5,6 +5,7 @@ import { SongInfo } from "../components/SongInfo";
 import { SamsungWidget } from "../components/SamsungWidget";
 import { Audio } from "@remotion/media";
 import { Lyrics } from "../components/Lyrics";
+import { SongDetails } from "../config/songDetails";
 
 export const SamsungPlayer = () => {
   return (
@@ -26,7 +27,7 @@ export const SamsungPlayer = () => {
       <Lyrics />
       <SamsungWidget />
       <Audio
-        src={staticFile("music.mp3")}
+        src={staticFile(SongDetails.audio)}
         from={0}
       />
     </AbsoluteFill>

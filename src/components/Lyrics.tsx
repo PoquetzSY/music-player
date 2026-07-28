@@ -1,5 +1,6 @@
 import { useCurrentFrame, useVideoConfig } from "remotion";
 import { useLyrics } from "../utils/useLyrics";
+import { SongDetails } from "../config/songDetails";
 
 export function Lyrics() {
 
@@ -8,8 +9,9 @@ export function Lyrics() {
 
     const time = frame / fps;
 
-    const lyrics = useLyrics("/media/AgainstTheCurrent/AlwaysYouAndI/lyrics.srt");
-    const sub = useLyrics("/media/AgainstTheCurrent/AlwaysYouAndI/lyrics-sub.srt");
+    const lyrics = useLyrics(SongDetails.lyrics[0]);
+    const sub = useLyrics(SongDetails.lyrics[1]);
+    const romaji = useLyrics(SongDetails.lyrics[2]);
 
     const currentMain = lyrics.find(
         (l) => time >= l.start && time < l.end
@@ -19,46 +21,31 @@ export function Lyrics() {
         (l) => time >= l.start && time < l.end
     );
 
-    if (!currentMain && !currentSub) {
+    const currentRomaji = romaji.find(
+        (l) => time >= l.start && time < l.end
+    );
+
+    if (!currentMain && !currentSub && !currentRomaji) {
         return null;
     }
 
     return (
-        <div
-            style={{
-                position: "absolute",
-                top: 1150,
-                left: 80,
-                right: 80,
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                gap: 12,
-            }}
-        >
+        <div className="absolute top-[1100px] left-[80px] right-[80px] flex flex-col items-center gap-12">
             {currentMain && (
-                <div
-                    style={{
-                        color: "white",
-                        fontSize: 48,
-                        fontWeight: "bold",
-                        textAlign: "center",
-                    }}
-                >
+                <div className="text-48 font-bold text-center text-white">
                     {currentMain.text}
                 </div>
             )}
 
             {currentSub && (
-                <div
-                    style={{
-                        color: "rgba(255, 241, 41, 0.75)",
-                        fontSize: 36,
-                        fontStyle: "italic",
-                        textAlign: "center",
-                    }}
-                >
+                <div className="text-36 italic text-center text-yellow-400 opacity-75">
                     {currentSub.text}
+                </div>
+            )}
+
+            {currentRomaji && (
+                <div className="text-36 italic text-center text-white-400 opacity-75">
+                    {currentRomaji.text}
                 </div>
             )}
         </div>

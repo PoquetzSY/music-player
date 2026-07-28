@@ -1,13 +1,19 @@
 export const SongDetails = {
-  title: "Always You & I",
+  title: "NIJI (虹)",
 
   artist: "Against The Current",
 
-  album: "",
+  album: "Bonus Tracks",
 
-  cover: "/media/AgainstTheCurrent/AlwaysYouAndI/cover.jpg",
+  cover: "/media/AgainstTheCurrent/Niji/cover.jpg",
 
-  background: "/media/AgainstTheCurrent/AlwaysYouAndI/background.jpg",
+  background: "/media/AgainstTheCurrent/Niji/background.jpg",
 
-  audio: "/media/AgainstTheCurrent/AlwaysYouAndI/music.mp3",
+  audio: "/media/AgainstTheCurrent/Niji/music.mp3",
+
+  lyrics: [
+    "/media/AgainstTheCurrent/Niji/lyrics.srt",
+    "/media/AgainstTheCurrent/Niji/lyrics-sub.srt",
+    "/media/AgainstTheCurrent/Niji/lyrics-romaji.srt",
+  ]
 };
