@@ -7,7 +7,7 @@ export const SongDetails = {
 
   cover: "/cover.jpg",
 
-  background: "/background.mp4",
+  background: "/background.jpg",
 
   audio: "/music.mp3",
 };

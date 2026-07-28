@@ -8,7 +8,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="SamsungPlayer"
         component={SamsungPlayer}
-        durationInFrames={11889}
+        durationInFrames={13130}
         fps={60}
         width={1080}
         height={1920}

@@ -27,7 +27,7 @@ export const SamsungPlayer = () => {
       <SamsungWidget />
       <Audio
         src={staticFile("music.mp3")}
-        durationInFrames={11888.33}
+        durationInFrames={13129.67}
         from={0}
       />
     </AbsoluteFill>

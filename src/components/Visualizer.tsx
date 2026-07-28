@@ -29,7 +29,6 @@ export function Visualizer() {
 
                 const distance = Math.abs(index - center);
 
-                // Hace que el centro tenga más energía
                 const weight = 1 - (distance / center);
 
                 const height =

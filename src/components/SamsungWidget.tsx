@@ -7,8 +7,8 @@ export function SamsungWidget() {
     <div
       style={{
         position: "absolute",
-        left: 70,
-        right: 70,
+        left: 80,
+        right: 80,
         top: 1470,
 
         background: "rgba(120,120,120,.25)",

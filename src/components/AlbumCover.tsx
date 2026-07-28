@@ -23,7 +23,6 @@ export function AlbumCover() {
           boxShadow: "0 30px 80px rgba(0,0,0,.45)",
           scale: 0.924,
         }}
-        durationInFrames={11889}
       />
     </div>
   );

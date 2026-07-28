@@ -27,9 +27,9 @@ export function Lyrics() {
         <div
             style={{
                 position: "absolute",
-                top: 1100,
-                left: 70,
-                right: 70,
+                top: 1150,
+                left: 80,
+                right: 80,
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
@@ -52,7 +52,7 @@ export function Lyrics() {
             {currentSub && (
                 <div
                     style={{
-                        color: "rgba(255,92,92,0.75)",
+                        color: "rgba(255, 241, 41, 0.75)",
                         fontSize: 36,
                         fontStyle: "italic",
                         textAlign: "center",

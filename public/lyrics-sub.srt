@@ -1,343 +1,195 @@
-0
-00:00:00,661 --> 00:00:02,388
-Chico, chico, chico, lo sé
-
 1
-00:00:02,438 --> 00:00:04,512
-Sé que tienes los sentimientos
+00:00:00,709 --> 00:00:03,399
+Todas las batallas luchadas
 
 2
-00:00:04,562 --> 00:00:06,825
-Chico, chico, chico, lo sé
+00:00:03,799 --> 00:00:06,400
+Quítate la armadura
 
 3
-00:00:06,875 --> 00:00:09,063
-Oh, tengo tanta curiosidad
+00:00:07,000 --> 00:00:09,699
+Abrázame en tu tierno corazón
 
 4
-00:00:09,113 --> 00:00:11,020
-Acerca de ti chico, quiero
-mantener la calma
+00:00:13,013 --> 00:00:15,405
+Mi mente se calma
 
 5
-00:00:11,070 --> 00:00:12,999
-Pero, cada vez que te mueves
+00:00:16,038 --> 00:00:18,600
+Cuando tú estás cerca
 
 6
-00:00:13,049 --> 00:00:14,500
-Me congelo y
+00:00:19,134 --> 00:00:22,196
+Limpia el veneno de mis pensamientos
 
 7
-00:00:14,550 --> 00:00:15,797
-Me vuelvo tan tímida
+00:00:25,238 --> 00:00:27,800
+Hasta la caída de la raza humana
 
 8
-00:00:15,847 --> 00:00:16,991
-Es obvio
+00:00:28,300 --> 00:00:30,800
+Y las luces parpadeen en el espacio
 
 9
-00:00:17,041 --> 00:00:19,008
-Atrapar los sentimientos
-como mariposas
+00:00:31,273 --> 00:00:35,087
+Yo me quedaría, me quedaría justo donde estás
 
 10
-00:00:19,058 --> 00:00:21,296
-Si digo lo que tengo en mente
+00:00:36,677 --> 00:00:40,199
+Cuando todos los ángeles del cielo estén muertos
 
 11
-00:00:21,346 --> 00:00:22,487
-¿Acertaría en el blanco?
+00:00:40,538 --> 00:00:42,899
+Si esto es todo lo que queda
 
 12
-00:00:22,537 --> 00:00:23,281
-Dispara
+00:00:43,173 --> 00:00:45,600
+Dos de nosotros por siempre
 
 13
-00:00:23,331 --> 00:00:25,992
-Estoy listo, apunta y dispara
+00:00:45,903 --> 00:00:48,499
+Siempre fuiste tú y yo
 
 14
-00:00:26,042 --> 00:00:27,766
-Cariño, yo
+00:00:49,299 --> 00:00:52,000
+Cuando incluso el tiempo llegue a su fin
 
 15
-00:00:28,816 --> 00:00:31,305
-Siento que Cupido está vivo
+00:00:52,600 --> 00:00:54,899
+Cuando todo se invierta
 
 16
-00:00:31,355 --> 00:00:34,012
-Vivo esta noche
+00:00:55,399 --> 00:00:57,600
+Dos de nosotros por siempre
 
 17
-00:00:34,062 --> 00:00:35,838
-Sí, esta noche
+00:00:58,000 --> 00:01:03,500
+Siempre fuiste tú, siempre fuiste tú y yo
 
 18
-00:00:35,888 --> 00:00:38,330
-Si tu corazón late de la
-misma manera, dímelo
+00:01:14,129 --> 00:01:16,598
+Encontré mi pieza que faltaba
 
 19
-00:00:38,380 --> 00:00:40,836
-Porque estoy boom boom boom
-de pies a cabeza y
+00:01:17,200 --> 00:01:19,599
+Oxígeno que respiro
 
 20
-00:00:40,886 --> 00:00:43,811
-Sé que el amor es algo tan curioso
+00:01:20,200 --> 00:01:22,900
+Eres el fuego en mi alma
 
 21
-00:00:43,861 --> 00:00:45,739
-Un encanto misterioso
+00:01:26,389 --> 00:01:28,900
+Desde la primera mirada
 
 22
-00:00:45,789 --> 00:00:47,767
-Tengo que conocerte más
+00:01:29,500 --> 00:01:31,799
+Hasta la otra vida
 
 23
-00:00:47,817 --> 00:00:50,299
-Porque, puedo sentir
-una conexión real
+00:01:32,299 --> 00:01:35,799
+Finalmente, he vuelto a casa
 
 24
-00:00:50,349 --> 00:00:52,729
-Una atracción sobrenatural-ah
+00:01:38,599 --> 00:01:41,000
+Hasta la caída de la raza humana
 
 25
-00:00:52,779 --> 00:00:56,456
-Tengo sentimientos por
-ti, sí, sí, sí, sí
+00:01:41,500 --> 00:01:44,000
+Y las luces parpadeen en el espacio
 
 26
-00:00:56,506 --> 00:00:59,986
-Me has robado el corazón, oh si
+00:01:44,599 --> 00:01:48,799
+Yo me quedaría, me quedaría justo donde estás
 
 27
-00:01:00,036 --> 00:01:02,073
-Nunca lo dejes ir oh oh no
+00:01:49,990 --> 00:01:53,599
+Cuando todos los ángeles del cielo estén muertos
 
 28
-00:01:02,073 --> 00:01:04,496
-Nunca lo dejes ir oh oh oh
+00:01:54,099 --> 00:01:56,299
+Si esto es todo lo que queda
 
 29
-00:01:04,546 --> 00:01:07,984
-Un rayo directo a mi corazón, oh si
+00:01:56,526 --> 00:01:59,000
+Dos de nosotros por siempre
 
 30
-00:01:08,034 --> 00:01:09,883
-I got all the feels for sure
+00:01:59,400 --> 00:02:02,000
+Siempre fuiste tú y yo
 
 31
-00:01:09,883 --> 00:01:12,511
-Yeah, I got all the feels for ya
+00:02:02,631 --> 00:02:05,500
+Cuando incluso el tiempo llegue a su fin
 
 32
-00:01:12,561 --> 00:01:14,408
-Boy I boy I boy I know
+00:02:06,099 --> 00:02:08,400
+Cuando todo se invierta
 
 33
-00:01:14,458 --> 00:01:16,470
-I know I get the feels
+00:02:08,900 --> 00:02:11,099
+Dos de nosotros por siempre
 
 34
-00:01:16,520 --> 00:01:18,485
-Boy I boy I boy I know
+00:02:11,500 --> 00:02:19,900
+Siempre fuiste tú, siempre fuiste tú y yo
 
 35
-00:01:18,485 --> 00:01:20,494
-I know you feel it too
+00:02:26,720 --> 00:02:31,500
+Incluso cuando todo lo demás se haya perdido
 
 36
-00:01:20,544 --> 00:01:22,549
-Sway in the moonlight,
-Dance in the dark I
+00:02:32,825 --> 00:02:38,500
+Yo me quedaría justo donde estás
 
 37
-00:01:22,599 --> 00:01:24,072
-I know that I caught your eye
+00:02:39,477 --> 00:02:42,539
+Cuando todos los ángeles del cielo estén muertos
 
 38
-00:01:24,122 --> 00:01:26,773
-Are we on, the same vibe I
+00:02:42,805 --> 00:02:45,156
+Si esto es todo lo que queda
 
 39
-00:01:26,823 --> 00:01:28,441
-wonder what's on your mind
+00:02:45,434 --> 00:02:47,764
+Dos de nosotros por siempre
 
 40
-00:01:28,441 --> 00:01:30,674
-Cuz you got me good and
-I wanna be ya boo
+00:02:48,128 --> 00:02:50,895
+Siempre fuiste tú y yo
 
 41
-00:01:30,724 --> 00:01:32,720
-If it's dumb well I wanna be a fool
+00:02:51,197 --> 00:02:54,699
+Cuando todos los ángeles del cielo estén muertos
 
 42
-00:01:32,770 --> 00:01:34,677
-Underneath the neon lights bebe
+00:02:55,059 --> 00:02:57,400
+Si esto es todo lo que queda
 
 43
-00:01:34,727 --> 00:01:36,740
-Electricity tonight bebe
+00:02:57,678 --> 00:03:00,052
+Dos de nosotros por siempre
 
 44
-00:01:36,790 --> 00:01:39,784
-I know love it is such a funny thing
+00:03:00,407 --> 00:03:03,000
+Siempre fuiste tú y yo
 
 45
-00:01:39,834 --> 00:01:41,717
-A mystery allure
+00:03:03,672 --> 00:03:06,500
+Cuando incluso el tiempo llegue a su fin
 
 46
-00:01:41,767 --> 00:01:43,720
-Gotta get to know you more
+00:03:07,099 --> 00:03:09,400
+Cuando todo se invierta
 
 47
-00:01:43,770 --> 00:01:46,273
-Cuz I, I can feel a real connection
+00:03:09,900 --> 00:03:12,099
+Dos de nosotros por siempre
 
 48
-00:01:46,273 --> 00:01:48,682
-A supernatural attraction-ah
+00:03:12,500 --> 00:03:19,900
+Siempre fuiste tú, siempre fuiste tú y yo
 
 49
-00:01:48,732 --> 00:01:52,467
-I got the feels for you
-yea yea yea yea
-
-50
-00:01:52,517 --> 00:01:56,021
-You have stolen my heart, oh yeah
-
-51
-00:01:56,071 --> 00:01:58,010
-Never let it go oh oh no
-
-52
-00:01:58,060 --> 00:02:00,455
-Never let it go oh oh oh
-
-53
-00:02:00,505 --> 00:02:04,039
-Lightning straight to
-my heart, oh yeah
-
-54
-00:02:04,039 --> 00:02:05,685
-I got all the feels for sure
-
-55
-00:02:05,735 --> 00:02:08,537
-Yeah, I got all the feels for ya
-
-56
-00:02:08,587 --> 00:02:10,453
-Boy I boy I boy I know
-
-57
-00:02:10,503 --> 00:02:11,511
-I know I get the feel
-
-58
-00:02:12,561 --> 00:02:14,465
-Boy I boy I boy I know
-
-59
-00:02:14,515 --> 00:02:16,508
-I know you feel it too
-
-60
-00:02:16,558 --> 00:02:18,415
-Boy I boy I boy I know
-
-61
-00:02:18,465 --> 00:02:20,572
-I know I get the feels
-
-62
-00:02:20,572 --> 00:02:22,503
-Boy I boy I boy I know
-
-63
-00:02:22,553 --> 00:02:25,518
-I know you feel it too
-
-64
-00:02:25,518 --> 00:02:27,313
-You got my attention
-
-65
-00:02:27,363 --> 00:02:30,278
-So what's your intention
-
-66
-00:02:30,328 --> 00:02:32,544
-Yeah, tell me baby what's the deal?
-
-67
-00:02:32,594 --> 00:02:38,274
-Oh, one look and I know
-it baby my eyes reveal
-
-68
-00:02:38,274 --> 00:02:42,562
-That you you you give me the feels
-
-69
-00:02:42,612 --> 00:02:45,979
-You have stolen my heart, oh yeah
-
-70
-00:02:46,029 --> 00:02:47,949
-Never let it go oh oh no
-
-71
-00:02:47,999 --> 00:02:50,501
-Never let it go oh oh oh
-
-72
-00:02:50,501 --> 00:02:54,045
-Lightning straight to
-my heart, oh yeah
-
-73
-00:02:54,095 --> 00:02:55,749
-I got all the feels for sure
-
-74
-00:02:55,799 --> 00:02:58,529
-Yeah, I got all the feels for ya
-
-75
-00:02:58,529 --> 00:03:00,436
-Boy I boy I boy I know
-
-76
-00:03:00,486 --> 00:03:02,580
-I know I get the feels
-
-77
-00:03:02,580 --> 00:03:04,523
-Boy I boy I boy I know
-
-78
-00:03:04,573 --> 00:03:06,529
-I know you feel it too
-
-79
-00:03:06,579 --> 00:03:08,392
-Boy I boy I boy I know
-
-80
-00:03:08,442 --> 00:03:10,538
-I know I get the feels
-
-81
-00:03:10,588 --> 00:03:12,505
-Boy I boy I boy I know
-
-82
-00:03:12,555 --> 00:03:15,987
-I know you feel it too
+00:03:24,847 --> 00:03:29,500
+Siempre fuiste tú, siempre fuiste tú y yo
