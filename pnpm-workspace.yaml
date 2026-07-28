@@ -1,0 +1,6 @@
+allowBuilds:
+  audio-speaker: false
+  esbuild: false
+minimumReleaseAgeExclude:
+  - '@remotion/media-utils@4.0.500'
+  - remotion@4.0.500
