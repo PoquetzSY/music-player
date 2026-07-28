@@ -21,9 +21,9 @@ export function Controls() {
         transform: "rotate(180deg)",
       }}
     >
-      <Img src={staticFile("/next.svg")} style={previusIconStyle} />
-      <Img src={staticFile("/pause.svg")} style={iconStyle} />
-      <Img src={staticFile("/next.svg")} style={iconStyle} />
+      <Img src={staticFile("/assets/icons/next.svg")} style={previusIconStyle} />
+      <Img src={staticFile("/assets/icons/pause.svg")} style={iconStyle} />
+      <Img src={staticFile("/assets/icons/next.svg")} style={iconStyle} />
     </div>
   );
 }

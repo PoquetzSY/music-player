@@ -5,9 +5,9 @@ export const SongDetails = {
 
   album: "",
 
-  cover: "/cover.jpg",
+  cover: "/media/AgainstTheCurrent/AlwaysYouAndI/cover.jpg",
 
-  background: "/background.jpg",
+  background: "/media/AgainstTheCurrent/AlwaysYouAndI/background.jpg",
 
-  audio: "/music.mp3",
+  audio: "/media/AgainstTheCurrent/AlwaysYouAndI/music.mp3",
 };

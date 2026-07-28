@@ -8,8 +8,8 @@ export function Lyrics() {
 
     const time = frame / fps;
 
-    const lyrics = useLyrics("lyrics.srt");
-    const sub = useLyrics("lyrics-sub.srt");
+    const lyrics = useLyrics("/media/AgainstTheCurrent/AlwaysYouAndI/lyrics.srt");
+    const sub = useLyrics("/media/AgainstTheCurrent/AlwaysYouAndI/lyrics-sub.srt");
 
     const currentMain = lyrics.find(
         (l) => time >= l.start && time < l.end

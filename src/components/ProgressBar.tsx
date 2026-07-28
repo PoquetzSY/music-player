@@ -1,4 +1,3 @@
-import { PlayerDetails } from "../config/playerDetails";
 import { usePlayerProgress } from "../utils/usePlayerProgress";
 
 export function ProgressBar() {
@@ -35,7 +34,7 @@ export function ProgressBar() {
                         top: 0,
                         height: 8,
                         width: `${progress * 100}%`,
-                        background: `${PlayerDetails.accent}`,
+                        background: "white",
                         borderRadius: 999,
                     }}
                 />
@@ -52,7 +51,7 @@ export function ProgressBar() {
 
                         borderRadius: "50%",
 
-                        background: `${PlayerDetails.accent}`,
+                        background: "white",
 
                         boxShadow: "0 0 12px rgba(214,255,0,.45)",
                     }}
