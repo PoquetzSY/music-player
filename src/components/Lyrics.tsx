@@ -21,11 +21,14 @@ export function Lyrics() {
         (l) => time >= l.start && time < l.end
     );
 
-    const currentRomaji = romaji.find(
-        (l) => time >= l.start && time < l.end
-    );
+    let currentRomaji;
+    if (romaji.length > 0) {
+        currentRomaji = romaji.find(
+            (l) => time >= l.start && time < l.end
+        );
+    }
 
-    if (!currentMain && !currentSub && !currentRomaji) {
+    if (!currentMain && !currentSub) {
         return null;
     }
 
