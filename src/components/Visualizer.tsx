@@ -15,7 +15,7 @@ export function Visualizer() {
     ];
 
     return (
-        <div
+        <div 
             style={{
                 display: "flex",
                 alignItems: "flex-end",

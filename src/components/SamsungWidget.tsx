@@ -4,23 +4,7 @@ import { Visualizer } from "./Visualizer";
 
 export function SamsungWidget() {
   return (
-    <div
-      style={{
-        position: "absolute",
-        left: 80,
-        right: 80,
-        top: 1470,
-
-        background: "rgba(120,120,120,.25)",
-        backdropFilter: "blur(40px)",
-
-        borderRadius: 48,
-
-        padding: 40,
-
-        color: "white",
-      }}
-    >
+    <div className="absolute top-[1470px] left-[80px] right-[80px] rounded-[48px] p-[40px] bg-[rgba(50,50,50,.25)] backdrop-blur-[40px] text-white">
       <Visualizer />
 
       <ProgressBar />

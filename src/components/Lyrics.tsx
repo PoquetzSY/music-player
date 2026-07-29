@@ -38,13 +38,13 @@ export function Lyrics() {
             )}
 
             {currentSub && (
-                <div className="text-36 italic text-center text-yellow-400 opacity-75">
+                <div className="text-36 italic text-center text-amber-300">
                     {currentSub.text}
                 </div>
             )}
 
             {currentRomaji && (
-                <div className="text-36 italic text-center text-white-400 opacity-75">
+                <div className="text-36 italic text-center text-red-300">
                     {currentRomaji.text}
                 </div>
             )}

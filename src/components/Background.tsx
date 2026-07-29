@@ -6,14 +6,7 @@ export function Background() {
     <AbsoluteFill>
       <Img
         src={staticFile(SongDetails.background)}
-        style={{
-          width: "100%",
-          height: "100%",
-          objectFit: "cover",
-          opacity: 0.5,
-          filter: "blur(12px)",
-          transform: "scale(1.1)",
-        }}
+        className="absolute size-full object-cover blur-sm opacity-50"
       />
     </AbsoluteFill>
   );

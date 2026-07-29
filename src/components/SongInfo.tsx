@@ -8,11 +8,11 @@ export function SongInfo() {
       </div>
 
       <div className={`flex justify-center mt-2 italic ${SongDetails.album ? "gap-10" : ""}`}>
-        <div className="text-4xl opacity-75">{SongDetails.artist} </div>
+        <div className="text-4xl">{SongDetails.artist} </div>
         {SongDetails.album ? (
           <>
-            <div className="text-4xl opacity-75">~</div>
-            <div className="text-4xl opacity-75">{SongDetails.album}</div>
+            <div className="text-4xl">~</div>
+            <div className="text-4xl">{SongDetails.album}</div>
           </>
         ) : null}
       </div>

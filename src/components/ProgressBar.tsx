@@ -9,64 +9,27 @@ export function ProgressBar() {
 
     return (
         <>
-            <div
-                style={{
-                    position: "relative",
-                    width: "100%",
-                    height: 8,
-                }}
-            >
+            <div className="relative w-full h-[8px]">
                 {/* Fondo */}
-                <div
-                    style={{
-                        position: "absolute",
-                        inset: 0,
-                        background: "#6f6f6f",
-                        borderRadius: 999,
-                    }}
-                />
+                <div className="absolute inset-0 bg-[#6f6f6f] rounded-full" />
 
                 {/* Barra */}
-                <div
+                <div className={`absolute top-0 left-0 h-[8px] bg-white rounded-full`}
                     style={{
-                        position: "absolute",
-                        left: 0,
-                        top: 0,
-                        height: 8,
                         width: `${progress * 100}%`,
-                        background: "white",
-                        borderRadius: 999,
                     }}
                 />
 
                 {/* Círculo */}
-                <div
+                <div className="absolute rounded-full size-[20px] bg-white"
                     style={{
-                        position: "absolute",
                         left: `calc(${progress * 100}% - 10px)`,
                         top: -6,
-
-                        width: 20,
-                        height: 20,
-
-                        borderRadius: "50%",
-
-                        background: "white",
-
-                        boxShadow: "0 0 12px rgba(214,255,0,.45)",
                     }}
                 />
             </div>
 
-            <div
-                style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    marginTop: 18,
-                    color: "white",
-                    fontSize: 24,
-                }}
-            >
+            <div className="flex justify-between mt-4 text-white text-lg">
                 <span>{format(elapsedSeconds)}</span>
 
                 <span>-{format(remainingSeconds)}</span>
