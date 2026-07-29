@@ -1,19 +1,19 @@
 export const SongDetails = {
-  title: "NIJI (虹)",
+  title: "Ritual",
 
-  artist: "Against The Current",
+  artist: "The Warning",
 
-  album: "Bonus Tracks",
+  album: "Everything's Falling",
 
-  cover: "/media/AgainstTheCurrent/Niji/cover.jpg",
+  cover: "/media/TheWarning/Ritual/cover.mp4",
 
-  background: "/media/AgainstTheCurrent/Niji/background.jpg",
+  background: "/media/TheWarning/Ritual/background.jpg",
 
-  audio: "/media/AgainstTheCurrent/Niji/music.mp3",
+  audio: "/media/TheWarning/Ritual/music.mp3",
 
   lyrics: [
-    "/media/AgainstTheCurrent/Niji/lyrics.srt",
-    "/media/AgainstTheCurrent/Niji/lyrics-sub.srt",
-    "/media/AgainstTheCurrent/Niji/lyrics-romaji.srt",
+    "/media/TheWarning/Ritual/lyrics.srt",
+    "/media/TheWarning/Ritual/lyrics-sub.srt",
+    "/media/TheWarning/Ritual/lyrics-romaji.srt",
   ]
 };
