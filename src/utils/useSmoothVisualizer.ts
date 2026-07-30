@@ -29,7 +29,7 @@ export function useSmoothVisualizer(src: string) {
 
         // 2. Inercia
         const attack = 0.45;
-        const release = 0.08;
+        const release = 0.09;
 
         const result = smoothed.map((value, i) => {
 
