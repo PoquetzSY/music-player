@@ -6,12 +6,10 @@ export function VisualizerBar({ height }: Props) {
     return (
         <div
             style={{
-                width: 5,
-                height: 10,
+                width: 12,
+                height,
+                borderRadius: 999,
                 background: "white",
-                borderRadius: 10,
-                transform: `scaleY(${height})`,
-                transformOrigin: "bottom",
             }}
         />
     );

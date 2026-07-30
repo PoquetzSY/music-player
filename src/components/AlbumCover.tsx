@@ -6,9 +6,6 @@ export function AlbumCover() {
   const isVideo = SongDetails.cover.toLowerCase().endsWith(".mp4");
 
   const style = {
-    width: Sizes.albumSize,
-    height: Sizes.albumSize,
-    borderRadius: Sizes.borderRadius,
     objectFit: "cover" as const,
     boxShadow: "0 30px 80px rgba(0,0,0,.45)",
     scale: 0.924,
@@ -19,12 +16,14 @@ export function AlbumCover() {
       {isVideo ? (
         <OffthreadVideo
           src={staticFile(SongDetails.cover)}
+          className={`${Sizes.albumSize} ${Sizes.borderRadius}`}
           style={style}
           muted
         />
       ) : (
         <Img
           src={staticFile(SongDetails.cover)}
+          className={`${Sizes.albumSize} ${Sizes.borderRadius}`}
           style={style}
         />
       )}

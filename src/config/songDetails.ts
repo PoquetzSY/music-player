@@ -1,19 +1,19 @@
 export const SongDetails = {
-  title: "Ritual",
+  title: "Gimme Dat Love",
 
-  artist: "The Warning",
+  artist: "I-DLE",
 
-  album: "Everything's Falling",
+  album: "We Made",
 
-  cover: "/media/TheWarning/Ritual/cover.mp4",
+  cover: "/media/Idle/GimmeDatLove/cover.jpg",
 
-  background: "/media/TheWarning/Ritual/background.jpg",
+  background: "/media/Idle/GimmeDatLove/background.jpg",
 
-  audio: "/media/TheWarning/Ritual/music.mp3",
+  audio: "/media/Idle/GimmeDatLove/music.mp3",
 
   lyrics: [
-    "/media/TheWarning/Ritual/lyrics.srt",
-    "/media/TheWarning/Ritual/lyrics-sub.srt",
-    "/media/TheWarning/Ritual/lyrics-romaji.srt",
+    "/media/Idle/GimmeDatLove/lyrics.srt",
+    "/media/Idle/GimmeDatLove/lyrics-sub.srt",
+    "/media/Idle/GimmeDatLove/lyrics-romaji.srt",
   ]
 };

@@ -1,21 +1,15 @@
 import { SongDetails } from "../config/songDetails";
-import { useVisualizer } from "../utils/useVisualizer";
-import { smoothSamples } from "../utils/smoothSamples";
 import { VisualizerBar } from "./VisualizerBar";
+import { useSmoothVisualizer } from "../utils/useSmoothVisualizer";
 
 export function Visualizer() {
 
-    const raw = useVisualizer(SongDetails.audio);
+    const raw = useSmoothVisualizer(SongDetails.audio);
 
-    const samples = smoothSamples(raw).slice(0, 64);
-
-    const mirrored = [
-        ...samples.slice().reverse(),
-        ...samples
-    ];
+    const samples = raw.slice(0, 64);
 
     return (
-        <div 
+        <div
             style={{
                 display: "flex",
                 alignItems: "flex-end",
@@ -23,24 +17,32 @@ export function Visualizer() {
                 height: 80,
             }}
         >
-            {mirrored.map((sample, index) => {
+            {samples.map((sample, index) => {
+                const normalized = Math.pow(sample, 0.325);
 
-                const center = mirrored.length / 2;
+                const center = samples.length / 2;
 
-                const distance = Math.abs(index - center);
+                const x = (index - center) / center;
 
-                const weight = 1 - (distance / center);
+                const weight = Math.exp(-x * x * 2.8);
+                const variation =
+                    1 +
+                    Math.sin(index * 0.7) * 0.08;
 
-                const height =
-                    Math.max(
-                        0.15,
-                        sample * 10 * (0.5 + weight)
-                    );
+                const height = Math.max(
+                    0.25,
+                    normalized *
+                    weight *
+                    variation *
+                    12
+                );
+
+                const barHeight = height * 30;
 
                 return (
                     <VisualizerBar
                         key={index}
-                        height={height}
+                        height={barHeight}
                     />
                 );
             })}
