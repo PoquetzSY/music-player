@@ -35,19 +35,19 @@ export function Lyrics() {
     return (
         <div className="absolute top-[1100px] left-[80px] right-[80px] flex flex-col items-center gap-12">
             {currentMain && (
-                <div className="text-48 font-bold text-center text-white">
+                <div className="text-48 font-bold text-center text-white text-shadow-lg/30">
                     {currentMain.text}
                 </div>
-            )}
+            )} 
 
             {currentSub && (
-                <div className="text-36 italic text-center text-amber-300">
+                <div className="text-36 italic text-center text-amber-300 text-shadow-lg/30">
                     {currentSub.text}
                 </div>
-            )}
+            )} 
 
             {currentRomaji && (
-                <div className="text-36 italic text-center text-red-300">
+                <div className="text-36 italic text-center text-red-300 text-shadow-lg/30">
                     {currentRomaji.text}
                 </div>
             )}

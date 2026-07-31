@@ -18,7 +18,7 @@ export function Visualizer() {
             }}
         >
             {samples.map((sample, index) => {
-                const normalized = Math.pow(sample, 0.325);
+                const normalized = Math.pow(sample, 0.35);
 
                 const center = samples.length / 2;
 
