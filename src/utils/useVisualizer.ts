@@ -1,8 +1,7 @@
 import { useAudioData, visualizeAudio } from "@remotion/media-utils";
-import { useCurrentFrame, useVideoConfig, staticFile } from "remotion";
+import { useVideoConfig, staticFile } from "remotion";
 
-export function useVisualizer(src: string) {
-    const frame = useCurrentFrame();
+export function useVisualizer(src: string, frame: number) {
     const { fps } = useVideoConfig();
 
     const audioData = useAudioData(staticFile(src));

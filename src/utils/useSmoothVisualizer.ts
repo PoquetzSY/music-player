@@ -1,50 +1,61 @@
-import { useMemo, useRef } from "react";
-import { useVisualizer } from "./useVisualizer";
+import { visualizeAudio } from "@remotion/media-utils";
+import { useCurrentFrame, useVideoConfig } from "remotion";
+import { useAudio } from "./useAudio";
+
+const TEMPORAL_WEIGHTS = [
+    0.45,
+    0.25,
+    0.15,
+    0.10,
+    0.05,
+];
+
+function spatialSmooth(samples: number[]) {
+    return samples.map((_, i) => {
+        const left = samples[i - 1] ?? samples[i];
+        const center = samples[i];
+        const right = samples[i + 1] ?? samples[i];
+
+        return (
+            left * 0.25 +
+            center * 0.5 +
+            right * 0.25
+        );
+    });
+}
 
 export function useSmoothVisualizer(src: string) {
+    const frame = useCurrentFrame();
+    const { fps } = useVideoConfig();
 
-    const raw = useVisualizer(src);
+    const audioData = useAudio(src);
 
-    const previous = useRef<number[]>([]);
+    if (!audioData) {
+        return [];
+    }
 
-    return useMemo(() => {
+    const smoothedFrames = TEMPORAL_WEIGHTS.map((_, offset) => {
 
-        if (raw.length === 0) {
-            return [];
+        const samples = visualizeAudio({
+            audioData,
+            fps,
+            frame: Math.max(0, frame - offset),
+            numberOfSamples: 64,
+        });
+
+        return spatialSmooth(samples);
+    });
+
+    return smoothedFrames[0].map((_, index) => {
+
+        let value = 0;
+
+        for (let i = 0; i < TEMPORAL_WEIGHTS.length; i++) {
+            value +=
+                smoothedFrames[i][index] *
+                TEMPORAL_WEIGHTS[i];
         }
 
-        // 1. Suavizado espacial
-        const smoothed = raw.map((_, i) => {
-
-            const left = raw[i - 1] ?? raw[i];
-            const center = raw[i];
-            const right = raw[i + 1] ?? raw[i];
-
-            return (
-                left * 0.25 +
-                center * 0.5 +
-                right * 0.25
-            );
-        });
-
-        // 2. Inercia
-        const attack = 0.45;
-        const release = 0.09;
-
-        const result = smoothed.map((value, i) => {
-
-            const last = previous.current[i] ?? value;
-
-            if (value > last) {
-                return last + (value - last) * attack;
-            }
-
-            return last + (value - last) * release;
-        });
-
-        previous.current = result;
-
-        return result;
-
-    }, [raw]);
+        return value;
+    });
 }
