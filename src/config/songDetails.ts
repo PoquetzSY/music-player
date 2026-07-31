@@ -5,7 +5,7 @@ export const SongDetails = {
 
   album: "We Made",
 
-  cover: "/media/Idle/GimmeDatLove/cover.jpg",
+  cover: "/media/Idle/GimmeDatLove/cover.mp4",
 
   background: "/media/Idle/GimmeDatLove/background.jpg",
 

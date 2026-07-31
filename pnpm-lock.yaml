@@ -11,6 +11,9 @@ importers:
       '@remotion/cli':
         specifier: 4.0.499
         version: 4.0.499(lightningcss@1.31.1)(postcss@8.5.23)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(supports-color@8.1.1)(typescript@5.9.3)
+      '@remotion/google-fonts':
+        specifier: ^4.0.502
+        version: 4.0.502(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@remotion/media':
         specifier: 4.0.499
         version: 4.0.499(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -740,6 +743,9 @@ packages:
     resolution: {integrity: sha512-dFfCUnphF+u1XvzVq87OC5xuL9oOM+aQ1rgi5ftTFYgRb+GufRs+fKNO6fd918CUn+OK4TOLevVU+m2BmbbiYQ==}
     peerDependencies:
       eslint: '>=9'
+
+  '@remotion/google-fonts@4.0.502':
+    resolution: {integrity: sha512-Pprdk0GdnHMs+cPCmVrzENhlKMCc4Hs6uQCOPbZLt/eezZZCEmWptCACbOCRvAnK9xr7XAU+Sy5Ia8OLZMbjuA==}
 
   '@remotion/licensing@4.0.499':
     resolution: {integrity: sha512-dKjaYAJsxCUXDvAjJW8bHIUe+dYAXEcq2M0RVrqdS1CEUZPUQXhzIbYILX+slcVb5c8/DD5t+edm7d2VSY81Tg==}
@@ -1951,8 +1957,8 @@ packages:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
 
-  remotion@4.0.500:
-    resolution: {integrity: sha512-pMSW1YIkEB8UuM471JGyWklMoH1GBxQKAK36XpDy3z1yixritBLGt/KQsuv4n6k5eXxf37joEvXMbXqz20HZgg==}
+  remotion@4.0.502:
+    resolution: {integrity: sha512-6pIVS9HAsCKbbXFa3+1RFZJHCZl65C15+p4pFlqFPkvxqCkeZCjOwBpxLa5TtCsShlh309YghL0JCmXS/87urw==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
@@ -2858,6 +2864,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
       - typescript
+
+  '@remotion/google-fonts@4.0.502(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
+    dependencies:
+      remotion: 4.0.502(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+    transitivePeerDependencies:
+      - react
+      - react-dom
 
   '@remotion/licensing@4.0.499': {}
 
@@ -4166,7 +4179,7 @@ snapshots:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
 
-  remotion@4.0.500(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
+  remotion@4.0.502(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
     dependencies:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
