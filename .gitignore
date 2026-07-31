@@ -7,3 +7,4 @@ dist
 out
 public/media/*
 !public/media/.gitkeep
+src/components/Visualizer.tsx

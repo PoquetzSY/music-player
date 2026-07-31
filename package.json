@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "My Remotion video",
   "repository": {},
+  "type": "module",
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
@@ -20,7 +21,9 @@
     "@remotion/eslint-config-flat": "4.0.499",
     "@types/react": "19.2.7",
     "@types/web": "0.0.166",
+    "audio-decode": "^3.11.4",
     "eslint": "9.19.0",
+    "fft.js": "^4.0.4",
     "knip": "^6.29.0",
     "prettier": "3.8.1",
     "typescript": "5.9.3"
@@ -29,7 +32,8 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "generate-audio-cache": "node src/scripts/generateAudioCache.mjs"
   },
   "sideEffects": [
     "*.css"

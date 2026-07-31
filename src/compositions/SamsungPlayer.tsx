@@ -26,10 +26,7 @@ export const SamsungPlayer = () => {
       <SongInfo />
       <Lyrics />
       <SamsungWidget />
-      <Audio
-        src={staticFile(SongDetails.audio)}
-        from={0}
-      />
+      <Audio src={staticFile(SongDetails.audio)} from={0} />
     </AbsoluteFill>
   );
 };

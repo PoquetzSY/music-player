@@ -1,3 +1,4 @@
+export const path = "/media/Idle/GimmeDatLove";
 export const SongDetails = {
   title: "Gimme Dat Love",
 
@@ -5,15 +6,15 @@ export const SongDetails = {
 
   album: "We Made",
 
-  cover: "/media/Idle/GimmeDatLove/cover.mp4",
+  cover: `${path}/cover.mp4`,
 
-  background: "/media/Idle/GimmeDatLove/background.jpg",
+  background: `${path}/background.jpg`,
 
-  audio: "/media/Idle/GimmeDatLove/music.mp3",
+  audio: `${path}/music.mp3`,
 
   lyrics: [
-    "/media/Idle/GimmeDatLove/lyrics.srt",
-    "/media/Idle/GimmeDatLove/lyrics-sub.srt",
-    "/media/Idle/GimmeDatLove/lyrics-romaji.srt",
+    `${path}/lyrics.srt`,
+    `${path}/lyrics-sub.srt`,
+    `${path}/lyrics-romaji.srt`,
   ]
 };

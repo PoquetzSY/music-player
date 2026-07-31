@@ -1,10 +1,9 @@
-import { SongDetails } from "../config/songDetails";
 import { VisualizerBar } from "./VisualizerBar";
 import { useSmoothVisualizer } from "../utils/useSmoothVisualizer";
 
 export function Visualizer() {
 
-    const raw = useSmoothVisualizer(SongDetails.audio);
+    const raw = useSmoothVisualizer();
 
     const samples = raw.slice(0, 64);
 
@@ -34,7 +33,7 @@ export function Visualizer() {
                     normalized *
                     weight *
                     variation *
-                    12
+                    5
                 );
 
                 const barHeight = height * 30;
