@@ -1,12 +1,12 @@
-export const path = "/media/Idle/GimmeDatLove";
+export const path = "/media/Idle/Morning";
 export const SongDetails = {
-  title: "Gimme Dat Love",
+  title: "Morning",
 
   artist: "I-DLE",
 
   album: "We Made",
 
-  cover: `${path}/cover.mp4`,
+  cover: `${path}/cover.jpg`,
 
   background: `${path}/background.jpg`,
 

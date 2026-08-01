@@ -19,7 +19,7 @@ export function AlbumCover() {
           src={staticFile(SongDetails.cover)}
           className={`${Sizes.albumSize} ${Sizes.borderRadius}`}
           style={style}
-          trimBefore={13 * fps}
+          trimBefore={1 * fps}
           muted
         />
       ) : (

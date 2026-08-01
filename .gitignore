@@ -8,3 +8,5 @@ out
 public/media/*
 !public/media/.gitkeep
 src/components/Visualizer.tsx
+src/config/songDetails.ts
+public/audio-cache.json
