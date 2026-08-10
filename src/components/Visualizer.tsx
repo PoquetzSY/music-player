@@ -29,11 +29,11 @@ export function Visualizer() {
                     Math.sin(index * 0.7) * 0.08;
 
                 const height = Math.max(
-                    0.25,
+                    0.45,
                     normalized *
                     weight *
                     variation *
-                    5
+                    4
                 );
 
                 const barHeight = height * 30;
