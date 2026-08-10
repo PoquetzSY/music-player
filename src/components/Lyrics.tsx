@@ -1,12 +1,10 @@
 import { useCurrentFrame, useVideoConfig } from "remotion";
 import { loadFont as loadQuicksand } from "@remotion/google-fonts/Quicksand";
-import { loadFont as loadEdu } from "@remotion/google-fonts/EduVICWANTHand";
 import { useLyrics } from "../utils/useLyrics";
 import { SongDetails } from "../config/songDetails";
 
 export function Lyrics() {
     const { fontFamily: quicksand } = loadQuicksand();
-    const { fontFamily: edu } = loadEdu();
 
     const frame = useCurrentFrame();
     const { fps } = useVideoConfig();
@@ -28,7 +26,7 @@ export function Lyrics() {
     let currentRomaji;
     if (romaji.length > 0) {
         currentRomaji = romaji.find(
-            (l) => time >= l.start && time < l.end
+            (l) => time >= l.start && time < l.end && l.text.trim() !== ""
         );
     }
 
@@ -37,23 +35,23 @@ export function Lyrics() {
     }
 
     return (
-        <div style={{ fontFamily: quicksand }} className="absolute top-[1100px] left-[80px] right-[80px] flex flex-col items-center gap-12">
+        <div style={{ fontFamily: quicksand }} className="absolute top-[1100px] left-[80px] right-[80px] h-[250px] flex flex-col justify-around items-center gap-12">
             {currentMain && (
-                <div className="text-48 font-bold text-center text-white text-shadow-xl/50">
+                <p className="text-48 font-bold text-center text-white text-shadow-xl/50">
                     {currentMain.text}
-                </div>
+                </p>
             )}
 
             {currentSub && (
-                <div style={{ fontFamily: quicksand }} className="text-36 font-semibold italic text-center text-amber-400 text-shadow-xl/50">
+                <p style={{ fontFamily: quicksand }} className="text-36 font-semibold italic text-center text-amber-400 text-shadow-xl/50">
                     {currentSub.text}
-                </div>
+                </p>
             )}
 
             {currentRomaji && (
-                <div style={{ fontFamily: edu }} className="text-36 font-semibold text-center text-red-300 text-shadow-xl/50">
+                <p style={{ fontFamily: quicksand }} className="text-36 font-semibold italic text-center text-red-300 text-shadow-xl/50">
                     {currentRomaji.text}
-                </div>
+                </p>
             )}
         </div>
     );
