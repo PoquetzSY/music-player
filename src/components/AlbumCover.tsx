@@ -1,9 +1,9 @@
 import { SongDetails } from "../config/songDetails";
-import { Img, OffthreadVideo, staticFile, useVideoConfig } from "remotion";
+import { Img, OffthreadVideo, staticFile } from "remotion";
 import { Sizes } from "../theme/sizes";
 
 export function AlbumCover() {
-  const { fps } = useVideoConfig();
+  // const { fps } = useVideoConfig();
   const isVideo = SongDetails.cover.toLowerCase().endsWith(".mp4");
 
   const style = {
@@ -19,7 +19,6 @@ export function AlbumCover() {
           src={staticFile(SongDetails.cover)}
           className={`${Sizes.albumSize} ${Sizes.borderRadius}`}
           style={style}
-          trimBefore={1 * fps}
           muted
         />
       ) : (

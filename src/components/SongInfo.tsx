@@ -9,15 +9,27 @@ export function SongInfo() {
         {SongDetails.title}
       </div>
 
-      <div className={`flex justify-center mt-2 italic text-shadow-xl/50 ${SongDetails.album ? "gap-10" : ""}`}>
+      {SongDetails.artist.length > 19 ? (
+        <>
+          <div className={`flex justify-center mt-2 italic text-shadow-xl/50 w-4/6 ${SongDetails.album ? "gap-10" : ""}`}>
+            <div className="text-4xl">{SongDetails.album}</div>
+          </div>
+          <div className={`flex justify-center mt-2 italic text-shadow-xl/50 w-4/6 ${SongDetails.album ? "gap-10" : ""}`}>
+            <div className="text-4xl">{SongDetails.artist} </div>
+          </div>
+        </>
+
+      ) : <div className={`flex justify-center mt-2 italic text-shadow-xl/50 w-4/6 ${SongDetails.album ? "gap-10" : ""}`}>
         <div className="text-4xl">{SongDetails.artist} </div>
+
         {SongDetails.album ? (
           <>
             <div className="text-4xl">~</div>
             <div className="text-4xl">{SongDetails.album}</div>
           </>
         ) : null}
-      </div>
+      </div>}
+
     </div >
   );
 }

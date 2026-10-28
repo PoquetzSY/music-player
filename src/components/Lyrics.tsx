@@ -35,7 +35,7 @@ export function Lyrics() {
     }
 
     return (
-        <div style={{ fontFamily: quicksand }} className="absolute top-[1050px] left-[80px] right-[80px] h-[350px] flex flex-col justify-around items-center gap-8">
+        <div style={{ fontFamily: quicksand }} className={`absolute ${SongDetails.artist.length > 19 ?"top-[1090px]" : "top-[1050px]"} left-[80px] right-[80px] h-[350px] flex flex-col justify-center items-center gap-12`}>
             {currentMain && (
                 <p className="text-48 font-bold text-center text-white text-shadow-xl/50">
                     {currentMain.text}
